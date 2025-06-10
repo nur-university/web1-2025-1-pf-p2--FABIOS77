@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("texto-ubicacion").textContent = "Santa Cruz de la Sierra";
     document.getElementById("nombre-anunciante").textContent = "Juan Pérez";
     document.getElementById("texto-estado").textContent = "Nuevo";
-    document.getElementById("foto-anunciante").src = "img/user.png";
+    document.getElementById("foto-anunciante").src = "../images/anunciante.png";
   
 
     function mostrarImagen(src) {
@@ -39,8 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
       mostrarImagen(imagenes[indiceImagen]);
     });
 
-    document.getElementById("btn-guardar").style.display = "none";
-    document.getElementById("btn-enviar-mensaje").style.display = "none";
-    document.getElementById("btn-detalles-vendedor").style.display = "none";
+    
   });
   
